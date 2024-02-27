@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Actuator extends Model
 {
-    //
+    protected $fillable = [
+        'id', 'name','type','value','user_id',
+    ];
 }
